@@ -13,7 +13,7 @@ DB_PATH = DATA_DIR / "movies.db"
 if ENV_PATH.exists():
     load_dotenv(dotenv_path=ENV_PATH)
 
-# Asosiy Bot Tokeni (Doimiy)
+# Asosiy Bot Tokeni
 DEFAULT_BOT_TOKEN = "8621462566:AAGraRkhmsCcW8WwImtr3mSY-98qQBLjOkI"
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip() or DEFAULT_BOT_TOKEN
 
